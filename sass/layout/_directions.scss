@@ -6,12 +6,11 @@
     display: flex;
 }
 
-.directions-title {
+.directions__title {
     margin-bottom: 50px;
 }
 
-.directions-title,
-.team-title {
+.directions-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
@@ -20,14 +19,14 @@
     color: var(--main-title-color);
 }
 
-.directions-item {
+.directions-list__item {
     position: relative;
     &:not(:last-child) {
         margin-right: 30px;
     }
 }
 
-.directions-text {
+.directions-list__text {
     position: absolute;
     bottom: 0;
     left: 0;
