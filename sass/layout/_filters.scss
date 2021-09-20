@@ -1,14 +1,14 @@
-.portfolio-list-btn {
+.portfolio-filters {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
 }
 
-.portfolio-item-btn {
+.portfolio-filters__item {
     display: flex;
 }
 
-.button-btn {
+.portfolio-filters__btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
